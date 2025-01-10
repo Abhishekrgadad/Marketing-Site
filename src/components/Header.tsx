@@ -1,4 +1,4 @@
-import { Bell, ChevronDown, GraduationCap } from 'lucide-react';
+import { Bell, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -13,15 +13,14 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <a href="/" className="flex items-center space-x-2">
-              <GraduationCap className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-gray-900 dark:text-white">Sleuthor</span>
-            </a>
+            <div className="flex items-center space-x-2">
+              <img src="/logo.png" alt="Sleuthor Logo" className="h-40 w-40 object-contain" />
+            </div>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
             <a href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">Home</a>
-            
+
             <div className="relative"
               onMouseEnter={() => setIsInternshipOpen(true)}
               onMouseLeave={() => setIsInternshipOpen(false)}
@@ -76,9 +75,9 @@ export function Header() {
 
           <div className="flex items-center space-x-4">
             <ThemeToggle />
-            
+
             <div className="relative">
-              <button 
+              <button
                 onClick={() => setIsNotificationOpen(!isNotificationOpen)}
                 className="p-2 text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400"
               >
@@ -109,7 +108,7 @@ export function Header() {
                 <ChevronDown className="h-4 w-4" />
               </button>
 
-              
+
             </div>
           </div>
         </div>

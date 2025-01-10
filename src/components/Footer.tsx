@@ -1,4 +1,4 @@
-import { GraduationCap } from 'lucide-react';
+
 
 export function Footer() {
   return (
@@ -7,10 +7,9 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2">
-                <GraduationCap className="h-8 w-8 text-blue-500" />
-                <span className="text-xl font-bold text-gray-900 dark:text-white">Sleuthor</span>
-              </div>
+            <div className="flex items-center space-x-2">
+              <img src="/logo.png" alt="Sleuthor Logo" className="h-40 w-40 object-contain" />
+            </div>
               <p className="mt-4 text-gray-600 dark:text-gray-400">
                 Connecting talented students with amazing internship opportunities.
               </p>

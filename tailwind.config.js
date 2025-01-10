@@ -7,6 +7,7 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         body: ['Roboto', 'system-ui', 'sans-serif'],
+        
       },
       colors: {
         primary: '#3B82F6',
