@@ -68,7 +68,7 @@ export function HomePage() {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">About Us</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-              Sluthor is dedicated to connecting talented students with exceptional internship opportunities. 
+              Sleuthor is dedicated to connecting talented students with exceptional internship opportunities. 
               We believe in the power of hands-on experience and mentorship to shape the next generation of industry leaders.
             </p>
 

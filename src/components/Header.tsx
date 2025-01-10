@@ -15,7 +15,7 @@ export function Header() {
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
               <GraduationCap className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-gray-900 dark:text-white">Sluthor</span>
+              <span className="text-xl font-bold text-gray-900 dark:text-white">Sleuthor</span>
             </a>
           </div>
 

@@ -9,7 +9,7 @@ export function Footer() {
             <div>
               <div className="flex items-center space-x-2">
                 <GraduationCap className="h-8 w-8 text-blue-500" />
-                <span className="text-xl font-bold text-gray-900 dark:text-white">Sluthor</span>
+                <span className="text-xl font-bold text-gray-900 dark:text-white">Sleuthor</span>
               </div>
               <p className="mt-4 text-gray-600 dark:text-gray-400">
                 Connecting talented students with amazing internship opportunities.
@@ -48,7 +48,7 @@ export function Footer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                © {new Date().getFullYear()} Sluthor. All rights reserved.
+                © {new Date().getFullYear()} Sleuthor. All rights reserved.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400">
