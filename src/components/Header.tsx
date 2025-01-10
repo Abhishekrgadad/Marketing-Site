@@ -70,8 +70,8 @@ export function Header() {
               )}
             </div>
 
-            <a href="/about" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">About Us</a>
-            <a href="/contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">Contact Us</a>
+            <a href="#aboutus" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">About Us</a>
+            <a href="#contactus" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">Contact Us</a>
           </nav>
 
           <div className="flex items-center space-x-4">
@@ -102,21 +102,14 @@ export function Header() {
                 className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  src="https://cdn-icons-png.flaticon.com/512/5951/5951752.png"
                   alt="Profile"
                   className="h-8 w-8 rounded-full"
                 />
                 <ChevronDown className="h-4 w-4" />
               </button>
 
-              {isProfileOpen && (
-                <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
-                  <div className="py-1">
-                    <a href="/profile" className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">You</a>
-                    <a href="/signout" className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Sign out</a>
-                  </div>
-                </div>
-              )}
+              
             </div>
           </div>
         </div>

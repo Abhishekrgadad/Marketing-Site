@@ -4,19 +4,19 @@ export function FAQSection() {
   const faqs = [
     {
       question: "What is the duration of the internships?",
-      answer: "The duration of the internships varies by program, typically ranging from 3 to 6 months."
+      answer: "The duration of the internships varies by program, typically ranging from 1 to 3 months."
     },
     {
       question: "Are the internships paid?",
-      answer: "Yes, many of our internships offer competitive stipends or hourly wages."
+      answer: "Currently we provide Free internships will provide competitive stipends or hourly wages in Upcoming Sessions."
     },
     {
       question: "How do I apply for an internship?",
-      answer: "You can apply for internships through our website by filling out the application form."
+      answer: "You can apply for internships through our website by filling out the Register or Apply form."
     },
     {
       question: "What qualifications do I need to apply?",
-      answer: "Qualifications vary by internship, but generally, we look for candidates with relevant skills and a passion for learning."
+      answer: "Qualifications vary by internship, but generally, we provide internships for all relevant skills and a passion for learning."
     },
     {
       question: "Will I receive a certificate after completing the internship?",

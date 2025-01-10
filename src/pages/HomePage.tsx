@@ -74,11 +74,11 @@ export function HomePage() {
 
             <div className="grid grid-cols-3 gap-8 text-center">
               <div className="p-4">
-                <div className="text-blue-500 text-4xl font-bold mb-2">500+</div>
+                <div className="text-blue-500 text-4xl font-bold mb-2">20+</div>
                 <div className="text-gray-900 dark:text-white font-semibold">Partner Companies</div>
               </div>
               <div className="p-4">
-                <div className="text-blue-500 text-4xl font-bold mb-2">10,000+</div>
+                <div className="text-blue-500 text-4xl font-bold mb-2">100+</div>
                 <div className="text-gray-900 dark:text-white font-semibold">Successful Placements</div>
               </div>
               <div className="p-4">
